@@ -1,0 +1,11 @@
+// Code for this specific project starts here.
+
+// Header top fixes - load the images correctly.
+#header-top input[type='search'] {
+  background: url(../img/font-awesome-svg/search-gray-6.svg) no-repeat 10px 50%;
+  background-size:16px;
+
+  &:focus{
+  background-image: url(../img/font-awesome-svg/search-gray-5.svg);
+  }
+}

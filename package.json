@@ -13,8 +13,8 @@
   "scripts": {
     "build": "npm run css",
     "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/",
-    "css-prefix": "postcss --replace assets/css/starter.css --use autoprefixer --map",
-    "css-purge": "purgecss --css assets/css/starter.css --content index.html --output assets/css/",
+    "css-prefix": "postcss --replace assets/css/project.css --use autoprefixer --map",
+    "css-purge": "purgecss --css assets/css/project.css --content index.html --output assets/css/",
     "css": "npm run css-compile && npm run css-prefix",
     "server": "serve --listen 3000",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
@@ -31,7 +31,7 @@
   "author": "mdo",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.5.0",
+    "@asu-design-system/bootstrap4-theme": "^1.0.4",
     "jquery": "^3.5.1",
     "popper.js": "1.16.1-lts"
   },
