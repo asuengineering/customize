@@ -1,2 +1,61 @@
-#header-top input[type='search']{background:url(../img/font-awesome-svg/search-gray-6.svg) no-repeat 10px 50%;background-size:16px}#header-top input[type='search']:focus{background-image:url(../img/font-awesome-svg/search-gray-5.svg)}
-/*# sourceMappingURL=project.css.map */
+#header-top input[type=search] {
+  background: url(../img/font-awesome-svg/search-gray-6.svg) no-repeat 10px 50%;
+  background-size: 16px;
+}
+#header-top input[type=search]:focus {
+  background-image: url(../img/font-awesome-svg/search-gray-5.svg);
+}
+
+.slick-slide {
+  margin: 0 1rem;
+}
+
+.slick-list {
+  margin: 0 -1rem;
+}
+
+.program-deck {
+  position: relative;
+}
+.program-deck .btn {
+  position: absolute;
+  top: 50%;
+}
+.program-deck .btn-prev {
+  left: -5rem;
+}
+.program-deck .btn-next {
+  right: -5rem;
+}
+
+.deck .card.card-selected {
+  border-color: #8c1d40;
+  border-width: 2px;
+}
+.deck .card .card-footer {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.deck .card .card-footer .uds-list {
+  padding: 0 0 0 2rem;
+}
+.deck .card .card-footer .uds-list li {
+  margin-bottom: 0.5rem;
+}
+.deck .card .card-checkmark label:hover {
+  cursor: pointer;
+}
+.deck .card .card-checkmark input[type=checkbox] ~ label.selected,
+.deck .card .card-checkmark input[type=checkbox]:checked ~ label.unselected {
+  display: none;
+}
+.deck .card .card-checkmark input[type=checkbox] ~ label.unseleceted,
+.deck .card .card-checkmark input[type=checkbox]:checked ~ label.selected {
+  display: block;
+}
+.deck .card .card-checkmark svg {
+  font-size: 3em;
+  color: #8c1d40;
+}

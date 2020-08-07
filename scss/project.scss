@@ -1,11 +1,81 @@
 // Code for this specific project starts here.
 
 // Header top fixes - load the images correctly.
-#header-top input[type='search'] {
+#header-top input[type="search"] {
   background: url(../img/font-awesome-svg/search-gray-6.svg) no-repeat 10px 50%;
-  background-size:16px;
+  background-size: 16px;
 
-  &:focus{
-  background-image: url(../img/font-awesome-svg/search-gray-5.svg);
+  &:focus {
+    background-image: url(../img/font-awesome-svg/search-gray-5.svg);
+  }
+}
+
+.slick-slide {
+  margin:0 1rem;
+}
+.slick-list {
+  margin:0 -1rem;
+}
+
+.program-deck {
+  position:relative;
+  .btn {
+    position:absolute;
+    top:50%;
+  }
+
+  .btn-prev {
+    left:-5rem;
+  }
+
+  .btn-next {
+    right: -5rem;
+  }
+}
+
+.deck {
+
+  .card {
+
+    &.card-selected {
+      border-color:#8c1d40;
+      border-width:2px;
+    }
+
+    .card-footer {
+      min-height: 200px;
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+      .uds-list {
+        padding: 0 0 0 2rem;
+
+        li {
+          margin-bottom:.5rem;
+        }
+      }
+    }
+
+    .card-checkmark {
+
+      label:hover {
+        cursor: pointer;
+      }
+
+      input[type=checkbox] ~ label.selected,
+      input[type=checkbox]:checked ~ label.unselected {
+        display:none;
+      }
+
+      input[type=checkbox] ~ label.unseleceted,
+      input[type=checkbox]:checked ~ label.selected {
+        display:block;
+      }
+
+      svg {
+        font-size: 3em;
+        color: #8c1d40;
+      }
+    }
   }
 }
