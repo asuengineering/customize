@@ -10,6 +10,13 @@
   border-bottom: none;
 }
 
+.wrapper-thirdrow {
+  background-color: #434343;
+}
+.wrapper-thirdrow h1, .wrapper-thirdrow > p {
+  color: #ffffff;
+}
+
 .progress {
   border-radius: 0;
   height: 0.25rem;

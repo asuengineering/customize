@@ -197,10 +197,10 @@ jQuery(document).ready(function($) {
       Host : "in-v3.mailjet.com",
       Username : MJ_SMTP_NAME,
       Password : MJ_SMTP_PASS,
-      // To : recipient,
-      To : "steve.ryan@asu.edu",
+      To : recipient,
+      // To : "steve.ryan@asu.edu",
       From : "fultonweb@asu.edu",
-      Subject : "Second email from Customize",
+      Subject : "Sample email from Customize Website (Development)",
       Body : emailbody
       }).then(
         // message => alert(message)
