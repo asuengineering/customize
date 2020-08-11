@@ -1,0 +1,88 @@
+<mjml>
+  <-- https://mjml.io/try-it-live/HJM_RNJfD -->
+  <mj-head>
+    <mj-title>Your Customized Experience</mj-title>
+    <mj-preview>Here are your selections from the Customize website.</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link { color: #8c1d40; }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link { color: #888888 }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#e8e8e8" width="600px">
+    <mj-section full-width="full-width" background-color="#191919" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="http://dev-customize-static.pantheonsite.io/assets/img/endorsed-logo/asu_fultonengineering_horiz_rgb_white_150ppi.png" alt="" align="center" width="350px" />
+        <mj-image src="https://customize.engineering.asu.edu/wp-content/uploads/2016/01/STI-bridge-build_8429_a.jpg" width="600px" alt="" padding="0" href="https://google.com" />
+      </mj-column>
+    </mj-section>
+    <!-- <mj-section background-color="#e8e8e8" padding-top="0" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-bottom.png" width="600px" alt="" padding="0" href="https://google.com" />
+      </mj-column>
+    </mj-section> -->
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#212b35" font-weight="bold" font-size="20px">
+            Your experience, customized.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Hi First Last
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+           We believe that you need more than traditional coursework to be competitive and successful in your career. See yourself in these things. Then do them.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Here are your selections from a moment ago:
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <ul>
+              <li style="padding-bottom: 20px"><strong>Lorem ipsum dolor:</strong> Sit amet consectetur adipisicing elit.</li>
+              <li style="padding-bottom: 20px"><strong>Quia a assumenda nulla:</strong> Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis.</li>
+              <li><strong>Tempora culpa porro labore:</strong> In quisquam optio quibusdam fugiat perspiciatis nobis.</li>
+            </ul>
+          </mj-text>
+          <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+            Work it harder, do it faster <a class="text-link" href="https://google.com">makes us stronger</a> hour after. Our work is never over.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://www.facebook.com/ASUEngineering" background-color="#A1A0A0">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://twitter.com/ASUEngineering" background-color="#A1A0A0">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/edu/ira-a.-fulton-schools-of-engineering-at-arizona-state-university-43093" background-color="#A1A0A0">
+            </mj-social-element>
+            <mj-social-element name="instagram" href="http://dev-customize-static.pantheonsite.io/#" background-color="#A1A0A0">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            You are receiving this email because you are awesome and have customized an experience of extra-curricular activities for ASU Engineering.
+          </mj-text>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            ASU Ira A. Fulton Schools of Engineering
+						<br/>699 S Mill Ave, Tempe, AZ, 85281, USA
+						<br/>Copyright © 2020 Arizona Board of Regents
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>

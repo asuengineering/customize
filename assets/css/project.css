@@ -6,6 +6,16 @@
   background-image: url(../img/font-awesome-svg/search-gray-5.svg);
 }
 
+#wrapper-header-main {
+  border-bottom: none;
+}
+
+.progress {
+  border-radius: 0;
+  height: 0.25rem;
+  background-color: #e8e8e8;
+}
+
 .slick-slide {
   margin: 0 1rem;
 }

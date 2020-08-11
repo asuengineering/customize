@@ -10,6 +10,18 @@
   }
 }
 
+#wrapper-header-main {
+  border-bottom:none;
+}
+
+// https://www.w3schools.com/howto/howto_js_scroll_indicator.asp
+.progress {
+  border-radius:0;
+  height:.25rem;
+  background-color:#e8e8e8;
+}
+
+// Carousel styles, via slick slider.
 .slick-slide {
   margin:0 1rem;
 }
@@ -33,8 +45,8 @@
   }
 }
 
+// Card styles
 .deck {
-
   .card {
 
     &.card-selected {
